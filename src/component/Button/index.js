@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import "./style.css"
 class Button extends Component {
+    constructor(props){
+        super(props);
+    }
     render() {
         return (
             <button className="game--restart" onClick={()=>{

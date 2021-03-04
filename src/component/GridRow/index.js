@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Cell from "../Cell"
 class GridRow extends Component {
+    constructor(props){
+        super(props);
+    }
     render() {
         return (
             <div className="GridRow">{this.props.row.map((col,colIndex)=>(
